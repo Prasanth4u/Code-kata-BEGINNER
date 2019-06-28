@@ -1,7 +1,7 @@
 chk_num = float(input("Type integer: "))
 if chk_num>0:
-   print("Positive Integer")
+   print("Positive")
 elif chk_num == 0:
-   print("You Have Entered Zero")
+   print("Zero")
 else:
-   print("Negative Integer")
+   print("Negative")

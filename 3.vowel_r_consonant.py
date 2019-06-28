@@ -1,8 +1,7 @@
 val=input("")
 vow=['a','e','i','o','u','A','E','I','O','U']
-cons=['B','T','G','H','b','t','g','h','f','F']
+cons=['B','T','G','H','b','t','g','h']
 try:
-  val=str(val)
   if val in vow:
    print("Vowel")
   elif val in cons:

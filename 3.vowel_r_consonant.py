@@ -1,6 +1,6 @@
 val=input("")
 vow=['a','e','i','o','u','A','E','I','O','U']
-cons=['B','T','G','H','b','t','g','h','f','F']
+cons=['z','Z','B','T','G','H','b','t','g','h','f','F']
 try:
   if val in vow:
    print("Vowel")

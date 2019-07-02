@@ -1,0 +1,11 @@
+fp=int(input(""))
+pf=fp
+rev=0
+while(fp>0):
+    dig=fp%10
+    rev=rev*10+dig
+    fp=fp//10
+if(pf==rev):
+    print("yes")
+else:
+    print("no")

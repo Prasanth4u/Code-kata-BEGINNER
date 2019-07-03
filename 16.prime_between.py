@@ -5,4 +5,4 @@ for num in range(pf,fp + 1):
            if (num % i) == 0:
                break
        else:
-           print(num)
+           print(num, end=' ')
